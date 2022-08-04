@@ -22,21 +22,21 @@
         </div>
         <nav>
             <ul id="MenuItems">
-                <li><a href=""> Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li onclick="toFirstPage()">Home</a></li>
+                <li onclick="scrollDown()">Products</li>
+                <li onclick="toAbout()">About</a></li>
+                <li onclick="toContact()">Contact</a></li>
                 <li><a href="">Account</a></li>
             </ul>
         </nav>
         <img src="logo/icon.png" width="30px" height="30px">
         <img src="logo/menu.png" class="menu-icon" onclick="menutoogle()">
         </div>
-        <div class="row">
+        <div id="firstpageEl" class="row">
             <div class="col-2">
                 <h1>Bold and Affordable Do The Most<br> BE BOLD</h1>
                 <p>Here at Smiley Accessories we give you quality and affordable jewelleries<br>Quality and affordable jewelleries do the most</p>
-            <button class="btn">    Explore now     </button>
+            <button class="btn" onclick="toFeatured()">    Explore now     </button>
             </div>
             <div class="col-2">
                 <img src="logo/logo5..png">
@@ -45,7 +45,7 @@
     </div>
     </div>
        <!----- featured categories -------->
-       <div class="categories">
+       <div id="exploreEl" class="categories">
            <div class="small-container">
             <div class="row">
                 <div class="col-3">
@@ -65,7 +65,7 @@
        </div>
 
         <!----- featured products -------->
-        <div class="small-container">
+        <div id="product" class="small-container">
             <h2 class="title">Feautured Products</h2>
             <div class="row">
                 <div class="col-4">
@@ -250,7 +250,7 @@
         </div>
 
 <!--------testimonial-------->
-<div class="testimonial">
+<div id="about" class="testimonial">
     <div class="small-container">
         <div class="row">
             <div class="col-3">
@@ -339,21 +339,15 @@
                     <p>what you order is what you get from Smiley Accessories</p>
                 </div>
                 <div class="footer-col-3">
-                    <h3>usefull links</h3>
-                    <ul>
-                        <li>coupons</li>
-                        <li>blog post</li>
-                        <li>return policy</li>
-                        <li>join affliate</li>
-                    </ul>
+                    
                 </div>
-                <div class="footer-col-4">
-                    <h3>follow us </h3>
+                <div id="contactEl" class="footer-col-4">
+                    <h3>Contact us  </h3>
                     <ul>
                         <li><a href="https://www.facebook.com/stehllarh.smile.5">facebook</a></li>
                         <li><a href="https://instagram.com/smileyaccessories5?igshid=YmMyMTA2M2Y=">instagram</a></li>
                         <li><a href="https://twitter.com/">twitter</a></li>
-                        <li><a href="https://wa.me/message/‪+234 812 236 4063">whatsapp</a></li>
+                        <li><a href="#">whatsapp</a></li>
                     </ul>
                 </div>
             </div>
@@ -361,23 +355,8 @@
             <p class="copyright">Copyright 2022 - Moselova </p>
         </div>
     </div>
-    <!----------js for toogle menu-------->
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-
-        MenuItems.style.maxHeight = "0px";
-        function menutoogle(){
-            if(MenuItems.style.maxHeight == "0px")
-            {
-                MenuItems.style.maxHeight ="200px";
-                
-            }
-            else
-            {
-                MenuItems.style.maxHeight = "0px";
-            }
-        }
-    </script>
+   
+    <script src="script.js"></script>
     
 
 
@@ -390,4 +369,7 @@
 
        
 </body>
+
+
+
 </html>

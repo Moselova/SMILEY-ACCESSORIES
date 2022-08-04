@@ -23,6 +23,9 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
 }
 a{
     text-decoration: none;

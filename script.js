@@ -14,13 +14,12 @@ function menutoogle(){
     }
 }
 
-
 function scrollDown() {
-    var point = document.getElementById("product")
-    
+    var point = document.getElementById('product')
+    console.log(point)
     point.scrollIntoView({behavior: 'smooth'})
-    
 }
+
 
  function toAbout() {
     var link = document.getElementById("about")
@@ -40,8 +39,8 @@ function scrollDown() {
     first.scrollIntoView({behavior: 'smooth'})
  }
 
- function toFeatured() {
-    var featured = document.getElementById('exploreEl')
-    console.log(featured)
-    featured.scrollIntoView({behavior: "smooth"})
+ function toLatest() {
+    var latest = document.getElementById('latestEl')
+    console.log(latest)
+    latest.scrollIntoView({behavior: 'smooth'})
  }

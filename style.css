@@ -316,8 +316,9 @@ ul {
 .footer-col-1 img {
   cursor: pointer;
 }
-.rating {
-  /* margin-left: 40px; */
+.header-center {
+    display: flex;
+    text-align: center;
 }
 
 /*-------------- MEDIA QUERY FOR MENU ------------------*/
@@ -327,11 +328,12 @@ ul {
     text-align: left;
     top: 70px;
     left: 0;
-    background: rgba(247, 240, 240, 0.258);
+    background: rgba(255, 255, 255, 0);
     width: 100%;
     overflow: hidden;
     transition: max-height 0.5;
   }
+ 
   nav ul li {
     display: block;
     margin-right: 50px;
@@ -352,6 +354,7 @@ ul {
   .row {
     text-align: center;
   }
+  
   .col-2,
   .col-3,
   .col-4 {
@@ -360,7 +363,7 @@ ul {
 }
 
 .navbar ul li {
-  color: black;
+  color: red;
 
   padding: 12px;
   text-decoration: none;

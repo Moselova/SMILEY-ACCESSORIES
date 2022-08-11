@@ -63,7 +63,7 @@ a {
   padding: 50px 0;
 }
 .col-2 h1 {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 60px;
   cursor: pointer;
   margin: 10px;
@@ -86,7 +86,7 @@ a {
 
 .logo h1 a {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   color: #ff523b;
 }
 .logo h1 a span {

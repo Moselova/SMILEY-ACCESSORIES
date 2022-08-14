@@ -68,6 +68,15 @@ a {
   cursor: pointer;
   margin: 10px;
 }
+.btn-pearl{
+  border-radius: 1px solid;
+  padding: 10px 50px;
+  margin-top: 20px;
+  color: rgb(17, 18, 18);
+}
+.btn-pearl:hover {
+  color: rgb(255, 0, 0);
+}
 .btn {
   border-radius: 1px solid;
   padding: 10px 50px;
@@ -257,9 +266,6 @@ h4 {
 .footer-col-4 {
   flex-basis: 12%;
   text-align: center;
-}
-.social-icons {
-  /* padding: 0 10px; */
 }
 
 .icons-so {

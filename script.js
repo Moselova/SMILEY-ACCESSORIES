@@ -44,3 +44,14 @@ function scrollDown() {
     console.log(latest)
     latest.scrollIntoView({behavior: 'smooth'})
  }
+
+ function redirect() {
+   var val = document.getElementById("demo")
+   val.innerHTML = "Redirecting to Whatsapp..."
+   setTimeout(WhatsappLink, 2000)
+   console.log(val);
+ }
+
+ function WhatsappLink() {
+    location.href = "https://wa.me/+2348122364063"
+ }

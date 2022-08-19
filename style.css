@@ -68,6 +68,10 @@ a {
   cursor: pointer;
   margin: 10px;
 }
+.col-2 i{
+  font-size: 10px;
+  font-weight: 500;
+}
 .btn-pearl{
   border-radius: 1px solid;
   padding: 10px 50px;
@@ -178,6 +182,7 @@ h4 {
 .small-container {
   color: #555;
 }
+
 /*----------testimonial------------*/
 
 .testimonial {
@@ -365,6 +370,9 @@ ul {
   .col-3,
   .col-4 {
     flex-basis: 100%;
+  }
+  .greetings {
+    flex-direction: column;
   }
 }
 

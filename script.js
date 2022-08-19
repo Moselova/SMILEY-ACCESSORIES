@@ -55,3 +55,18 @@ function scrollDown() {
  function WhatsappLink() {
     location.href = "https://wa.me/+2348122364063"
  }
+
+ /*-------time greeeting----------*/
+ var myDate = new Date()
+ var hrs = myDate.getHours()
+
+ var greet
+
+ if (hrs < 12)
+     greet = 'Good Morning ☀'
+ else if (hrs >= 12 && hrs <= 17)
+     greet = 'Good Afternoon'
+ else if (hrs >= 17 && hrs <= 24)
+     greet = 'Good Evening'
+     document.getElementById('greetings').innerHTML =  '<i>' + greet + ', what are you buying from us today </i>';
+     

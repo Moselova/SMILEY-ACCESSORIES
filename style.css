@@ -331,7 +331,7 @@ ul {
 @media only screen and (max-width: 800px) {
   nav ul {
     position: absolute;
-    text-align: left;
+    text-align: right;
     top: 70px;
     left: 0;
     background: rgba(255, 255, 255, 0);

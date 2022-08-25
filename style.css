@@ -382,6 +382,9 @@ ul {
   .greetings {
     flex-direction: column;
   }
+   .offer-img {
+    margin-right: 40px;
+  }
 }
 
 .navbar ul li {
